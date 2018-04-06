@@ -1,0 +1,18 @@
+time:2018.3.27
+author:Yuntao Qiang
+ID:2016-206539
+evaluation environment :linux 4.13.0-37-generic,ubuntu 16.04,OpenGL
+
+compile way: make 
+clean way: make clean
+run way: ./test
+
+Implement way: Get the D(t) equation by giving expression.And we can change the alpha value and n value in curve.h file which correspending to SF and NN. And the default value is 1 and 1. The way to compute intersection is that split the curve D(t) into many line segment. And remove intersected endpoints if other line segment intersect the intersection point will be marked by red point. And the intersection point coordinate will be printed to the screen. But I don not think it is the best way to get the intersection point cause if the splited line number is so small the reslut will be lack of correctness.
+
+
+
+
+
+
+Thank you for reading and have a nice day :)
+

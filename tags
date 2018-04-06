@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COPY_PT	curve.cpp	14;"	d	file:
+CubicBezierCurve	curve.h	/^typedef struct CubicBezierCurve $/;"	s
+CubicBezierCurve	curve.h	/^} CubicBezierCurve;$/;"	t	typeref:struct:CubicBezierCurve
+DERIVATIVE_CHANG_ADD	curve.cpp	16;"	d	file:
+EPS	curve.h	5;"	d
+INFINITY	curve.h	6;"	d
+NN	curve.cpp	11;"	d	file:
+PI	curve.cpp	9;"	d	file:
+PRECISION	curve.h	4;"	d
+PRINT_CTRLPTS	curve.cpp	/^void PRINT_CTRLPTS(CubicBezierCurve* crv){$/;"	f
+PRINT_CTRLPTS	curve.h	19;"	d
+Point	curve.h	/^typedef REAL  Point[2];$/;"	t
+REAL	curve.h	/^typedef float REAL;$/;"	t
+RES	main.cpp	119;"	d	file:
+SET_PT2	curve.h	22;"	d
+SET_VECTOR2	curve.cpp	13;"	d	file:
+SF	curve.cpp	10;"	d	file:
+SIN	curve.cpp	12;"	d	file:
+VECTOR2_X_SCALA_ADD	curve.cpp	15;"	d	file:
+X	curve.cpp	/^enum XY { X = 0, Y };$/;"	e	enum:XY	file:
+XY	curve.cpp	/^enum XY { X = 0, Y };$/;"	g	file:
+Y	curve.cpp	/^enum XY { X = 0, Y };$/;"	e	enum:XY	file:
+_CURVE_H_	curve.h	2;"	d
+control_pts	curve.h	/^	Point control_pts[4];$/;"	m	struct:CubicBezierCurve
+curve	main.cpp	/^CubicBezierCurve curve;$/;"	v
+display_callback	main.cpp	/^void display_callback()$/;"	f
+dot_online_in	main.cpp	/^int dot_online_in(qpoint p,qpoint l1,qpoint l2){$/;"	f
+dots_inline	main.cpp	/^int dots_inline(qpoint p1,qpoint p2,qpoint p3){$/;"	f
+edit_ctrlpts_idx	main.cpp	/^int edit_ctrlpts_idx = -1;$/;"	v
+eps	main.cpp	4;"	d	file:
+evaluate	curve.cpp	/^void evaluate(const CubicBezierCurve *curve, const REAL t, Point value)$/;"	f
+height	main.cpp	/^GLsizei width = 640, height = 480;$/;"	v
+hit_index	main.cpp	/^int hit_index(CubicBezierCurve *curve, int x, int y)$/;"	f
+init	main.cpp	/^void init()$/;"	f
+intersect	main.cpp	/^void intersect(qpoint* vector,int size)$/;"	f
+intersect_in	main.cpp	/^int intersect_in(qpoint u1,qpoint u2,qpoint v1,qpoint v2){$/;"	f
+intersection	main.cpp	/^qpoint intersection(qpoint u1,qpoint u2,qpoint v1,qpoint v2){$/;"	f
+isDottedLine	main.cpp	/^bool isDottedLine = false;$/;"	v
+isDrawControlMesh	main.cpp	/^bool isDrawControlMesh = true;$/;"	v
+judge	main.cpp	/^void judge(qpoint u1,qpoint u2,qpoint v1, qpoint v2)$/;"	f
+keyboard_callback	main.cpp	/^void keyboard_callback(unsigned char key, int x, int y)$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mouse_callback	main.cpp	/^void mouse_callback(GLint button, GLint action, GLint x, GLint y)$/;"	f
+mouse_move_callback	main.cpp	/^void mouse_move_callback(GLint x, GLint y)$/;"	f
+parallel	main.cpp	/^int parallel(qpoint u1,qpoint u2,qpoint v1,qpoint v2){$/;"	f
+qpoint	main.cpp	/^struct qpoint{float x,y;};$/;"	s	file:
+reshape_callback	main.cpp	/^void reshape_callback(GLint nw, GLint nh)$/;"	f
+same_side	main.cpp	/^int same_side(qpoint p1,qpoint p2,qpoint l1,qpoint l2){$/;"	f
+width	main.cpp	/^GLsizei width = 640, height = 480;$/;"	v
+x	main.cpp	/^struct qpoint{float x,y;};$/;"	m	struct:qpoint	file:
+xmult	main.cpp	/^double xmult(qpoint p1,qpoint p2,qpoint p0){$/;"	f
+y	main.cpp	/^struct qpoint{float x,y;};$/;"	m	struct:qpoint	file:
+zero	main.cpp	5;"	d	file:
